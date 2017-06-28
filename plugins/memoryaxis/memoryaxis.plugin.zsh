@@ -58,6 +58,7 @@ alias 2root='sudo su'
 alias k9ll='kill -9'
 alias chhost='sudo vim /etc/hosts'
 alias psg="ps -ef | grep -v 'grep' | grep -v 'tail -f' | grep " 
+alias updateZsh="cd ~/.oh-my-zsh;git remote add upstream https://github.com/robbyrussell/oh-my-zsh.git;git fetch upstream;git merge upstream/master;git push;"
 
 
 ###
