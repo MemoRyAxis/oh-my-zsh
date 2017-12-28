@@ -57,7 +57,7 @@ alias 2root='sudo su'
 # shortcut
 #
 # alias ovpn='cd /etc/openvpn; sudo openvpn bfd_data.ovpn &; cd ~;nohup ./xx-net/XX-Net-3.1.19/start&;'
-# alias vimd="chmod -x $ZSH/plugins/memoryaxis/open-markdown-preview.sh; sh $ZSH/plugins/memoryaxis/open-markdown-preview.sh "
+alias vimd="chmod -x $ZSH/plugins/memoryaxis/open-markdown-preview.sh; sh $ZSH/plugins/memoryaxis/open-markdown-preview.sh "
 alias k9ll='kill -9'
 alias chhost='sudo vim /etc/hosts'
 alias psg="ps -ef | grep -v 'grep' | grep -v 'tail -f' | grep " 
