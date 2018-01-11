@@ -43,11 +43,11 @@ export EDITOR=vi
 # jump 
 #
 # alias 228='~/do/ssh_22_28.ex'
-alias 2192='ssh qizheng.ma@192.168.162.192'
-alias 2193='ssh qizheng.ma@192.168.162.193'
-alias 228='ssh qizheng.ma@192.168.22.18'
-alias 2106='ssh -p3222 qizheng.ma@192.168.162.106'
-alias 2108='ssh -p3222 qizheng.ma@192.168.162.108'
+# alias 2192='ssh qizheng.ma@192.168.162.192'
+# alias 2193='ssh qizheng.ma@192.168.162.193'
+# alias 228='ssh qizheng.ma@192.168.22.18'
+# alias 2106='ssh -p3222 qizheng.ma@192.168.162.106'
+# alias 2108='ssh -p3222 qizheng.ma@192.168.162.108'
 alias 2aliyun='ssh -p2232 memoi@AY140718105632175cb0Z'
 alias 2aliyun2='ssh -p2322 root@iZrj9bsithym5hl9iic0mp'
 alias 2root='sudo su'
