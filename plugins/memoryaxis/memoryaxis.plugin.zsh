@@ -48,6 +48,7 @@ export EDITOR=vi
 # alias 228='ssh qizheng.ma@192.168.22.18'
 # alias 2106='ssh -p3222 qizheng.ma@192.168.162.106'
 # alias 2108='ssh -p3222 qizheng.ma@192.168.162.108'
+alias 23k='ssh jumper.sankuai.com'
 alias 2aliyun='ssh -p2232 memoi@AY140718105632175cb0Z'
 alias 2aliyun2='ssh -p2322 root@iZrj9bsithym5hl9iic0mp'
 alias 2root='sudo su'
@@ -61,8 +62,13 @@ alias vimd="chmod -x $ZSH/plugins/memoryaxis/open-markdown-preview.sh; sh $ZSH/p
 alias k9ll='kill -9'
 alias chhost='sudo vim /etc/hosts'
 alias psg="ps -ef | grep -v 'grep' | grep -v 'tail -f' | grep " 
+alias watchOSX="sh $ZSH/plugins/memoryaxis/watchosx.sh"
+alias treeOSX="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
+
 alias updateZsh="cd ~/.oh-my-zsh;git remote add upstream https://github.com/robbyrussell/oh-my-zsh.git;git fetch upstream;git merge upstream/master;git push;"
-alias watchosx="sh $ZSH/plugins/memoryaxis/watchosx.sh"
+
+alias subl="open -a 'Sublime Text'"
+
 
 
 ###
