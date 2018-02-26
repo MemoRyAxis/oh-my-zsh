@@ -58,6 +58,7 @@ alias 2root='sudo su'
 # shortcut
 #
 # alias ovpn='cd /etc/openvpn; sudo openvpn bfd_data.ovpn &; cd ~;nohup ./xx-net/XX-Net-3.1.19/start&;'
+alias cls="clear"
 alias vimd="chmod -x $ZSH/plugins/memoryaxis/open-markdown-preview.sh; sh $ZSH/plugins/memoryaxis/open-markdown-preview.sh "
 alias k9ll='kill -9'
 alias chhost='sudo vim /etc/hosts'
@@ -68,6 +69,7 @@ alias treeOSX="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
 alias updateZsh="cd ~/.oh-my-zsh;git remote add upstream https://github.com/robbyrussell/oh-my-zsh.git;git fetch upstream;git merge upstream/master;git push;"
 
 alias subl="open -a 'Sublime Text'"
+alias rnginx="sudo pwd; sudo nginx -s stop; sudo nginx;"
 
 
 
