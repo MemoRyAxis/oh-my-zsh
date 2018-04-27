@@ -43,7 +43,7 @@ export EDITOR=vi
 # jump 
 #
 # alias 228='~/do/ssh_22_28.ex'
-# alias 2192='ssh qizheng.ma@192.168.162.192'
+#s alias 2192='ssh qizheng.ma@192.168.162.192'
 # alias 2193='ssh qizheng.ma@192.168.162.193'
 # alias 228='ssh qizheng.ma@192.168.22.18'
 # alias 2106='ssh -p3222 qizheng.ma@192.168.162.106'
@@ -65,6 +65,7 @@ alias chhost='sudo vim /etc/hosts'
 alias psg="ps -ef | grep -v 'grep' | grep -v 'tail -f' | grep " 
 alias watchOSX="sh $ZSH/plugins/memoryaxis/watchosx.sh"
 alias treeOSX="find . -print | sed -e 's;[^/]*/;|____;g;s;____|; |;g'"
+alias vimo="vim -O"
 
 alias updateZsh="cd ~/.oh-my-zsh;git remote add upstream https://github.com/robbyrussell/oh-my-zsh.git;git fetch upstream;git merge upstream/master;git push;"
 
